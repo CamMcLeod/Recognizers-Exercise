@@ -36,7 +36,7 @@
                     <view key="view" contentMode="scaleToFill" id="uMz-0s-Jag">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="M5V-iZ-zyd"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Tap" image="item2" id="oOM-y1-ABm" userLabel="Tap"/>

@@ -15,6 +15,7 @@
 @implementation PinchViewController
 
 -(void)viewDidLoad {
+    
     [super viewDidLoad];
     CGFloat width = 100;
     CGFloat height = 100;
