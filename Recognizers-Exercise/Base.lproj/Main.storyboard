@@ -24,6 +24,7 @@
                         <segue destination="dT8-eR-6Jl" kind="relationship" relationship="viewControllers" id="0Qn-qI-kzo"/>
                         <segue destination="nON-GH-Si8" kind="relationship" relationship="viewControllers" id="aAN-FQ-ezR"/>
                         <segue destination="lbm-BA-ipg" kind="relationship" relationship="viewControllers" id="GSp-A7-WSy"/>
+                        <segue destination="OKb-Lv-sWW" kind="relationship" relationship="viewControllers" id="8lw-Ft-A8G"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="afb-eX-aVd" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -45,6 +46,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JaJ-Ux-V5d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="923" y="-320"/>
+        </scene>
+        <!--Rotate-->
+        <scene sceneID="Sc7-3P-qBe">
+            <objects>
+                <viewController id="OKb-Lv-sWW" userLabel="Rotate" customClass="RotateViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="drj-0B-RlV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Qgh-Nt-Gxn"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Rotate" image="item5" id="C8E-az-3aM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a6f-Vb-MhR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2059" y="321"/>
         </scene>
         <!--Swipe-->
         <scene sceneID="R7e-Q6-pom">
@@ -116,5 +133,6 @@
         <image name="item2" width="30" height="28"/>
         <image name="item3" width="30" height="28"/>
         <image name="item4" width="30" height="30"/>
+        <image name="item5" width="30" height="30"/>
     </resources>
 </document>
