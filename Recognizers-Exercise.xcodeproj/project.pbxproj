@@ -18,6 +18,8 @@
 		6212E6A522A9F6B4000F98DF /* item1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6212E69F22A9F6B4000F98DF /* item1.pdf */; };
 		6212E6A622A9F6B4000F98DF /* item5.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6212E6A022A9F6B4000F98DF /* item5.pdf */; };
 		6212E6A722A9F6B4000F98DF /* item4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6212E6A122A9F6B4000F98DF /* item4.pdf */; };
+		6212E6AA22A9FA4F000F98DF /* PanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6212E6A922A9FA4F000F98DF /* PanViewController.m */; };
+		6212E6AD22A9FA5F000F98DF /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6212E6AC22A9FA5F000F98DF /* TapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		6212E69F22A9F6B4000F98DF /* item1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = item1.pdf; sourceTree = SOURCE_ROOT; };
 		6212E6A022A9F6B4000F98DF /* item5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = item5.pdf; sourceTree = SOURCE_ROOT; };
 		6212E6A122A9F6B4000F98DF /* item4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = item4.pdf; sourceTree = SOURCE_ROOT; };
+		6212E6A822A9FA4F000F98DF /* PanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanViewController.h; sourceTree = "<group>"; };
+		6212E6A922A9FA4F000F98DF /* PanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanViewController.m; sourceTree = "<group>"; };
+		6212E6AB22A9FA5F000F98DF /* TapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapViewController.h; sourceTree = "<group>"; };
+		6212E6AC22A9FA5F000F98DF /* TapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				6212E66A22A9F53C000F98DF /* AppDelegate.h */,
 				6212E66B22A9F53C000F98DF /* AppDelegate.m */,
 				6212E67022A9F53C000F98DF /* Main.storyboard */,
+				6212E6A822A9FA4F000F98DF /* PanViewController.h */,
+				6212E6A922A9FA4F000F98DF /* PanViewController.m */,
+				6212E6AB22A9FA5F000F98DF /* TapViewController.h */,
+				6212E6AC22A9FA5F000F98DF /* TapViewController.m */,
 				6212E67322A9F53C000F98DF /* Assets.xcassets */,
 				6212E69F22A9F6B4000F98DF /* item1.pdf */,
 				6212E69C22A9F6B3000F98DF /* item2.pdf */,
@@ -255,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6212E6AA22A9FA4F000F98DF /* PanViewController.m in Sources */,
 				6212E67A22A9F53C000F98DF /* main.m in Sources */,
+				6212E6AD22A9FA5F000F98DF /* TapViewController.m in Sources */,
 				6212E66C22A9F53C000F98DF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
