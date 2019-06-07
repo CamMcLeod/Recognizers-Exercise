@@ -20,6 +20,7 @@
 		6212E6A722A9F6B4000F98DF /* item4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6212E6A122A9F6B4000F98DF /* item4.pdf */; };
 		6212E6AA22A9FA4F000F98DF /* PanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6212E6A922A9FA4F000F98DF /* PanViewController.m */; };
 		6212E6AD22A9FA5F000F98DF /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6212E6AC22A9FA5F000F98DF /* TapViewController.m */; };
+		6212E6B022A9FE79000F98DF /* PinchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6212E6AF22A9FE79000F98DF /* PinchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		6212E6A922A9FA4F000F98DF /* PanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanViewController.m; sourceTree = "<group>"; };
 		6212E6AB22A9FA5F000F98DF /* TapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapViewController.h; sourceTree = "<group>"; };
 		6212E6AC22A9FA5F000F98DF /* TapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapViewController.m; sourceTree = "<group>"; };
+		6212E6AE22A9FE79000F98DF /* PinchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinchViewController.h; sourceTree = "<group>"; };
+		6212E6AF22A9FE79000F98DF /* PinchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				6212E66A22A9F53C000F98DF /* AppDelegate.h */,
 				6212E66B22A9F53C000F98DF /* AppDelegate.m */,
 				6212E67022A9F53C000F98DF /* Main.storyboard */,
+				6212E6AE22A9FE79000F98DF /* PinchViewController.h */,
+				6212E6AF22A9FE79000F98DF /* PinchViewController.m */,
 				6212E6A822A9FA4F000F98DF /* PanViewController.h */,
 				6212E6A922A9FA4F000F98DF /* PanViewController.m */,
 				6212E6AB22A9FA5F000F98DF /* TapViewController.h */,
@@ -267,6 +272,7 @@
 			files = (
 				6212E6AA22A9FA4F000F98DF /* PanViewController.m in Sources */,
 				6212E67A22A9F53C000F98DF /* main.m in Sources */,
+				6212E6B022A9FE79000F98DF /* PinchViewController.m in Sources */,
 				6212E6AD22A9FA5F000F98DF /* TapViewController.m in Sources */,
 				6212E66C22A9F53C000F98DF /* AppDelegate.m in Sources */,
 			);
