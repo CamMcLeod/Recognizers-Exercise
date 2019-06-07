@@ -23,6 +23,7 @@
                         <segue destination="skb-u7-zoG" kind="relationship" relationship="viewControllers" id="R4t-O8-fqh"/>
                         <segue destination="dT8-eR-6Jl" kind="relationship" relationship="viewControllers" id="0Qn-qI-kzo"/>
                         <segue destination="nON-GH-Si8" kind="relationship" relationship="viewControllers" id="aAN-FQ-ezR"/>
+                        <segue destination="lbm-BA-ipg" kind="relationship" relationship="viewControllers" id="GSp-A7-WSy"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="afb-eX-aVd" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -45,6 +46,22 @@
             </objects>
             <point key="canvasLocation" x="923" y="-320"/>
         </scene>
+        <!--Swipe-->
+        <scene sceneID="R7e-Q6-pom">
+            <objects>
+                <viewController id="lbm-BA-ipg" userLabel="Swipe" customClass="SwipeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tCK-ak-hhl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="tF2-he-cD8"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Swipe" image="item4" id="V3v-dT-K5I" userLabel="Swipe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q8u-MP-E2z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1025" y="965"/>
+        </scene>
         <!--Pinch-->
         <scene sceneID="hgb-Op-KJy">
             <objects>
@@ -59,7 +76,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lWR-Q1-Kma" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-36" y="331"/>
+            <point key="canvasLocation" x="-36" y="321"/>
         </scene>
         <!--Pan-->
         <scene sceneID="LjT-ir-NLF">
@@ -98,5 +115,6 @@
         <image name="item1" width="30" height="30"/>
         <image name="item2" width="30" height="28"/>
         <image name="item3" width="30" height="28"/>
+        <image name="item4" width="30" height="30"/>
     </resources>
 </document>
