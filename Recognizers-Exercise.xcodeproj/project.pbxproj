@@ -23,6 +23,7 @@
 		6212E6B022A9FE79000F98DF /* PinchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6212E6AF22A9FE79000F98DF /* PinchViewController.m */; };
 		6212E6B322AA0563000F98DF /* SwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6212E6B222AA0563000F98DF /* SwipeViewController.m */; };
 		6212E6B622AA1062000F98DF /* RotateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6212E6B522AA1062000F98DF /* RotateViewController.m */; };
+		6212E6B922AA13C4000F98DF /* ScreenEdgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6212E6B822AA13C4000F98DF /* ScreenEdgeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		6212E6B222AA0563000F98DF /* SwipeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeViewController.m; sourceTree = "<group>"; };
 		6212E6B422AA1062000F98DF /* RotateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotateViewController.h; sourceTree = "<group>"; };
 		6212E6B522AA1062000F98DF /* RotateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotateViewController.m; sourceTree = "<group>"; };
+		6212E6B722AA13C4000F98DF /* ScreenEdgeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenEdgeViewController.h; sourceTree = "<group>"; };
+		6212E6B822AA13C4000F98DF /* ScreenEdgeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenEdgeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				6212E66A22A9F53C000F98DF /* AppDelegate.h */,
 				6212E66B22A9F53C000F98DF /* AppDelegate.m */,
 				6212E67022A9F53C000F98DF /* Main.storyboard */,
+				6212E6B722AA13C4000F98DF /* ScreenEdgeViewController.h */,
+				6212E6B822AA13C4000F98DF /* ScreenEdgeViewController.m */,
 				6212E6B422AA1062000F98DF /* RotateViewController.h */,
 				6212E6B522AA1062000F98DF /* RotateViewController.m */,
 				6212E6B122AA0563000F98DF /* SwipeViewController.h */,
@@ -281,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6212E6AA22A9FA4F000F98DF /* PanViewController.m in Sources */,
+				6212E6B922AA13C4000F98DF /* ScreenEdgeViewController.m in Sources */,
 				6212E6B622AA1062000F98DF /* RotateViewController.m in Sources */,
 				6212E67A22A9F53C000F98DF /* main.m in Sources */,
 				6212E6B022A9FE79000F98DF /* PinchViewController.m in Sources */,
